@@ -1,4 +1,3 @@
-install.packages( "lavaan.survey" , repos = "http://cran.rstudio.com/" )
 library(lodown)
 library(lavaan.survey)	
 options( survey.lonely.psu = "adjust" )
