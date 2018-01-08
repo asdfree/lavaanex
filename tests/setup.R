@@ -9,7 +9,7 @@ ess_cat <- get_catalog( "ess" , output_dir = file.path( path.expand( "~" ) , "ES
 ess_cat <- subset( ess_cat , wave == 4 & grepl( "c=DE|c=ES" , full_url ) )
 
 # download the ess microdata
-
+lodown( "ess" , ess_cat , your_email = Sys.getenv( "my_email_address" ) )
 # load Germany's round four main data file..
 ess4.de <- readRDS( file.path( path.expand( "~" ) , "ESS" , "2008/ESS4DE.rds" ) )
 
