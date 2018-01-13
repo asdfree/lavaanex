@@ -1,3 +1,5 @@
+options("lodown.cachaca.savecache"=FALSE)
+
 library(lodown)
 library(lavaan.survey)	
 options( survey.lonely.psu = "adjust" )
