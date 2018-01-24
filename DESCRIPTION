@@ -9,4 +9,4 @@ License: GPL-3
 Imports: lodown, lavaan.survey	, memisc
 Encoding: UTF-8
 LazyData: true
-desc_remotes_line
+Remotes: ajdamico/lodown
